@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+    const double ANNUAL_RISE = 1.5;
+// yearly rise
+    const int YEARS_5 = 5;
+    const int YEARS_7 = 7;
+    const int YEARS_10 = 10;
+// year intervals
+    double rise_after_5_years = ANNUAL_RISE * YEARS_5;
+    double rise_after_7_years = ANNUAL_RISE * YEARS_7;
+    double rise_after_10_years = ANNUAL_RISE * YEARS_10;
+// mathing those equations years times mm raised that year 
+    cout << "Ocean-level increase after 5 years: "
+         << rise_after_5_years << " millimeters" << endl;
+    cout << "Ocean-level increase after 7 years: "
+         << rise_after_7_years << " millimeters" << endl;
+    cout << "Ocean-level increase after 10 years: "
+         << rise_after_10_years << " millimeters" << endl;
+// return a display of word answers 
+    return 0;
+}
